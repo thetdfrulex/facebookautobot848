@@ -541,8 +541,7 @@ class ChatBot(Client):
             elif (msg == "bot play music"):
                 reply = "Dekh bhosdike abhi kam chalu hai matha mat thanka varna gend marunga teri huehue"
                 sendMsg()
-            if (ch<='a' and ch<='z'):
-            reply = "T E R E  A B B A  H E R E"
+            if (ch<='a' and ch<='z')
             sendMsg()
 
         except Exception as e:
