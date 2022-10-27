@@ -341,13 +341,13 @@ class ChatBot(Client):
                 pass
             image_urls = []
 
-            url = "https://google-search-2.p.rapidapi.com/videos"
+            url = "https://bing-image-search1.p.rapidapi.com/images/search"
 
             querystring = {"q": query, "count": str(count)}
 
             headers = {
-                'x-rapidapi-host': "google-search-2.p.rapidapi.com",
-                'x-rapidapi-key': "af59a75e01mshae011e7b5f096d9p177ad7jsn193d3ae39076"
+                'x-rapidapi-host': "bing-image-search1.p.rapidapi.com",
+                'x-rapidapi-key': "bing-image-search1.p.rapidapi.com"
             }
             print("sending requests...")
             response = requests.request(
