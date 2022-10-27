@@ -538,6 +538,9 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
+            elif (msg == "bot play music"):
+                reply = "Dekh bhosdike abhi kam chalu hai matha mat thanka varna gend marunga teri huehue"
+                sendMsg()
 
         except Exception as e:
             print(e)
@@ -656,9 +659,9 @@ class ChatBot(Client):
 cookies = {
     "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "",
+    "c_user": "100086229350498",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": ""
+    "xs": "40%3AfXebHgfO2xP2-w%3A2%3A1666853929%3A-1%3A3789"
 }
 
 
