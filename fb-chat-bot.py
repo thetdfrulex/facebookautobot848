@@ -538,8 +538,8 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
-            elif (msg == "bot play music"):
-                reply = "Dekh bhosdike abhi kam chalu hai matha mat thanka varna gend marunga teri huehue"
+            elif (msg == "bot"):
+                reply = "Dekh bhosdike abhi kam chalu hai matha mat thanka varna gend marunga teri huehue 😍"
                 sendMsg()
 
         except Exception as e:
