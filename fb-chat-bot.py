@@ -542,7 +542,7 @@ class ChatBot(Client):
                 reply = "Dekh bhosdike abhi kam chalu hai matha mat thanka varna gend marunga teri huehue"
                 sendMsg()
             if (ch<='a' and ch<='z')
-            sendMsg()
+            sendMsg():
 
         except Exception as e:
             print(e)
